@@ -8,7 +8,7 @@ Welcome to the **Playground C++ Altop** repository! This is your go-to space for
 - **💡 Sample Programs**: Discover a range of C++ programs that showcase different concepts.
 - **📝 Exercises**: Challenge yourself with problems and exercises to sharpen your skills.
 - **🔨 Projects**: Dive into small-scale projects to apply your knowledge and build real-world applications.
-- **🫂 Solidarity**: Repo saling tolong menolong supaya bisa lulus Matkul Progdas bersama sama
+- **🫂 Solidarity**: Repo saling tolong menolong supaya bisa lulus Matkul Progdas
 
 ## 🚀 Getting Started
 
