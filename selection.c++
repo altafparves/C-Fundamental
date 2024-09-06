@@ -19,6 +19,7 @@ void homework1()
 
 void homework2()
 {
+    // decraling variables
     int num1, num2, num3;
     cout << "<=== Enter three numbers ===>\n";
     cout << "Enter first number: ";
@@ -28,30 +29,36 @@ void homework2()
     cout << "Enter third number: ";
     cin >> num3;
 
+    // setting min and max values
     int minVal = num1, maxVal = num1;
 
+    // checking for min values
     if (num2 < minVal)
         minVal = num2;
     if (num3 < minVal)
         minVal = num3;
 
+    // checking for max values
     if (num2 > maxVal)
         maxVal = num2;
     if (num3 > maxVal)
         maxVal = num3;
 
+    // printing min and max values
     cout << "Minimum value: " << minVal << endl;
     cout << "Maximum value: " << maxVal << endl;
 }
 
-void homework3()
-{
+void homework3(){
     int total_spent;
     cout << "Enter the total amount spent: ";
     cin >> total_spent;
 
+    // declaring final_amount variables
     double final_amount = total_spent;
+    // set discount percentage
     int discount_percentage = 0;
+    // checking for discount
     if (total_spent >= 100 && total_spent <= 500)
     {
         discount_percentage = 5; // 5% discount
