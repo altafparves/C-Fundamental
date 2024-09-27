@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a, c = 0;
+    cin >> a;
+    int b[a];
+    for (int i = 0; i < a; i++)
+    {
+        cin >> b[i];
+    }
+
+    for (int i = 0; i < a; i++)
+    {
+        c = c + b[i];
+    }
+
+    cout << "Sum: " << c;
+}
