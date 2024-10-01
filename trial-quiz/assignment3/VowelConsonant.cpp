@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     string input;
@@ -22,8 +21,6 @@ int main()
             consonants++;
         }
     }
-
     cout << vowels << " " << consonants << endl;
-
     return 0;
 }
